@@ -26,7 +26,7 @@
 - [6. Glossary](#glossary)
 - [7. References](#references)
   
-## 1. Business Purpose
+## <a id="business-purpose"></a>1. Business Purpose
 
 ### 1) Project Background
 
@@ -64,7 +64,7 @@
 
 ---
 
-## 2. System Context Diagram
+## <a id="system-context-diagram"></a>2. System Context Diagram
 <img width="311" height="443" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/8079e65b-558f-411d-ac8e-4ed573941a20" />
 
 ### Description
@@ -80,7 +80,7 @@
 - **Select platform**: 플랫폼선택
 ---
 
-## 3. Use Case List
+## <a id="use-case-list"></a>3. Use Case List
 
 ### 1) Ticket reservation
 | Actor | Description |
@@ -129,7 +129,7 @@
 
 ---
 
-## 4. Concept of Operation
+## <a id="concept-of-operation"></a>4. Concept of Operation
 
 
 ### 1) Ticket reservation
@@ -205,7 +205,7 @@
 | Goals | 플랫폼 선택 기능을 구현한다. |
 
 
-## 5. Problem Statement
+## <a id="problem-statement"></a>5. Problem Statement
 본 시스템은 다양한 웹 예약 시스템을 대상으로 자동화를 제공하는 것을 목표로 한다. 이를 위해 다음과 같은 문제들을 고려해야 한다.
 
 ### Problem #1: Website Dependency
@@ -241,7 +241,7 @@
 
 ---
 
-## 6. Glossary
+## <a id="glossary"></a>6. Glossary
 
 | Term | Description |
 |------|------------|
@@ -252,7 +252,7 @@
 
 ---
 
-## 7. References
+## <a id="references"></a>7. References
 
 - [Selenium](https://www.selenium.dev/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
