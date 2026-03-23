@@ -26,9 +26,9 @@
 - [6. Glossary](#glossary)
 - [7. References](#references)
   
-# 1. Business Purpose
+## 1. Business Purpose
 
-## 1) Project Background
+### 1) Project Background
 
 현대의 다양한 웹 서비스에서는 예약(Reservation) 기능이 핵심적인 역할을 한다.
 기차표, 영화, 공연, 숙박 등 여러 분야에서 예약 시스템이 존재하지만, 
@@ -46,7 +46,7 @@
 
 ---
 
-## 2) Goal
+### 2) Goal
 
 - 웹 기반 자동 예약 시스템 설계  
 - 반복 작업 자동화  
@@ -56,7 +56,7 @@
 
 ---
 
-## 3) Target Market
+### 3) Target Market
 
 - 온라인 예약 시스템 사용자  
 - 반복 작업에 불편함을 느끼는 사용자  
@@ -64,7 +64,7 @@
 
 ---
 
-# 2. System Context Diagram
+## 2. System Context Diagram
 <img width="311" height="443" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/8079e65b-558f-411d-ac8e-4ed573941a20" />
 
 ### Description
@@ -80,7 +80,7 @@
 - **Select platform**: 플랫폼선택
 ---
 
-# 3. Use Case List
+## 3. Use Case List
 
 ### 1) Ticket reservation
 | Actor | Description |
@@ -129,7 +129,7 @@
 
 ---
 
-# 4. Concept of Operation
+## 4. Concept of Operation
 
 
 ### 1) Ticket reservation
@@ -205,33 +205,33 @@
 | Goals | 플랫폼 선택 기능을 구현한다. |
 
 
-# 5. Problem Statement
+## 5. Problem Statement
 본 시스템은 다양한 웹 예약 시스템을 대상으로 자동화를 제공하는 것을 목표로 한다. 이를 위해 다음과 같은 문제들을 고려해야 한다.
 
-## Problem #1: Website Dependency
+### Problem #1: Website Dependency
 웹사이트마다 구조가 달라 자동화 로직이 달라질 수 있다.
 → Adapter 기반 설계가 필요하다.
 
 ---
 
-## Problem #2: Continuous Request Load
+### Problem #2: Continuous Request Load
 반복적인 요청으로 인해 외부 시스템에 부하를 줄 수 있으며, 차단 가능성이 존재한다.  
 → 사람을 대신하는 수준의 요청으로 간격을 조정한다.
 
 ---
 
-## Problem #3: Technical Difficulty
+### Problem #3: Technical Difficulty
 웹 기반 시스템 및 자동화 기술을 공부한다.
 
 ---
 
-## Problem #4: Ethical Issue
+### Problem #4: Ethical Issue
 자동화 시스템이 특정 웹 서비스의 정책에 위반될 가능성이 존재한다.
 → 서비스 마다 제한적 사용 및 제한이 필요하다.
 
 ---
 
-## NFRs (Non-Functional Requirements)
+### NFRs (Non-Functional Requirements)
 
 - 시스템은 실패 시 재시도 로직을 통해 안정적으로 동작해야 한다  
 - 새로운 사이트 추가 시 기존 코드 수정 최소화되야 한다 
@@ -241,7 +241,7 @@
 
 ---
 
-# 6. Glossary
+## 6. Glossary
 
 | Term | Description |
 |------|------------|
@@ -252,7 +252,7 @@
 
 ---
 
-# 7. References
+## 7. References
 
 - [Selenium](https://www.selenium.dev/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
