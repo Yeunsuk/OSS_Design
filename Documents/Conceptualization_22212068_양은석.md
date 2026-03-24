@@ -65,7 +65,8 @@
 ---
 
 ## <a id="system-context-diagram"></a>2. System Context Diagram
-<img width="311" height="443" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/8079e65b-558f-411d-ac8e-4ed573941a20" />
+<img width="811" height="193" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/5f698c74-3efd-48f2-b4d3-f872f8c714ab" />
+
 
 ### Description
 
