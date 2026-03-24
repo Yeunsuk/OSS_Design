@@ -1,10 +1,10 @@
-## Automated Reservation System
-**Conceptualization Document**
+# 1. Conceptualization
 
-## Author
 - Student ID: 22212068  
 - Name: 양은석  
-- Email: yes6815@yu.ac.kr  
+- Email: yes6815@yu.ac.kr
+- Project Name: Automated Reservation System
+- Project Link: https://github.com/Yeunsuk/OSS_Design/tree/main/Documents
 
 ---
 
