@@ -1,9 +1,11 @@
 # 1. Conceptualization
 
+<img width="1408" height="768" alt="FM_logo" src="https://github.com/user-attachments/assets/3df2d08f-ff8b-4cff-93b6-cb4b2ef5ea0e" />
+
 - Student ID: 22212068  
 - Name: 양은석  
 - Email: yes6815@yu.ac.kr
-- Project Name: Automated Reservation System
+- Project Name: Find Myeongdang
 - Project Link: https://github.com/Yeunsuk/OSS_Design/tree/main/Documents
 
 ---
@@ -15,6 +17,7 @@
 | 03/23/2026 | 1.00 | 초안 | 양은석 |
 | 04/14/2026 | 1.01 | 주제변경 | 양은석 |
 | 04/19/2026 | 1.02 | 주제변경2 | 양은석 |
+| 05/01/2026 | 1.03 | 로고 추가 | 양은석 |
 
 ---
 
