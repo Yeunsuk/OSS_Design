@@ -18,6 +18,7 @@
 | 04/14/2026 | 1.01 | 주제변경 | 양은석 |
 | 04/19/2026 | 1.02 | 주제변경2 | 양은석 |
 | 05/01/2026 | 1.03 | 로고 추가 | 양은석 |
+| 05/27/2026 | 1.04 | 유스케이스 수정 | 양은석 |
 
 ---
 
@@ -68,25 +69,25 @@
 ---
 
 ## <a id="system-context-diagram"></a>2. System Context Diagram
-<img width="682" height="142" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/32b6f8a8-836b-4b49-bcc3-8a1e6b71160c" />
+<img width="707" height="113" alt="Conceptualization_Diagram" src="https://github.com/user-attachments/assets/9081d7da-603f-4b34-bfb5-e0da1969a5d6" />
 
 
 ### Description
 
-- Search Region : 지역 검색
+- Set Region : 지역 검색
 - Set Priority : 우선순위 설정
-- Interface : 인터페이스
-- Data Crawling : 데이터 크롤링
-- Data Save : 데이터 저장
-- Data Update : 데이터 갱신
-- Calculation : 계산
-- Data Processing : 데이터 가공
+- View Score : 점수제공
+- Collect Data : 데이터 수집
+- Send Message : 메시지 전송
+- Update Data : 데이터 갱신
+- Calculate Score : 점수 계산
+  
 ---
 
 ## <a id="use-case-list"></a>3. Use Case List
 
 
-### 1) Search Region
+### 1) Set Region
 
 | Actor | Description |
 | --- | --- |
@@ -98,47 +99,42 @@
 | --- | --- |
 | System | 우선순위를 설정한다 |
 
-### 3) Interface
+### 3) View Score
 
 | Actor | Description |
 | --- | --- |
-| System | 화면을 제공한다 |
+| System | 점수를 제공한다 |
 
-### 4) Data Crawling
-
-| Actor | Description |
-| --- | --- |
-| System | 데이터를 갖고온다 |
-
-### 5) Data Save
+### 4) Collect Data
 
 | Actor | Description |
 | --- | --- |
-| System | 데이터를 저장한다 |
+| System | 데이터를 수집한다 |
 
-### 6) Data Update
+### 5) Send Message
+
+| Actor | Description |
+| --- | --- |
+| System | 메시지를 보낸다 |
+
+### 6) Update Data
 
 | Actor | Description |
 | --- | --- |
 | User | 데이터를 갱신한다 |
 
-### 7) Calculation
+### 7) Calculate Score
 
 | Actor | Description |
 | --- | --- |
 | User | 데이터를 기반으로 계산한다 |
-
-### 8) Data Processing
-| Actor | Description |
-| --- | --- |
-| User | 데이터를 가공한다 |
 
 ---
 
 ## <a id="concept-of-operation"></a>4. Concept of Operation
 
 
-### 1) Search Region
+### 1) Set Region
 
 | Item | Description |
 | --- | --- |
@@ -156,32 +152,32 @@
 | Dynamics | 우선순위를 설정하는 경우 |
 | Goals | 우선순위 설정 기능을 구현한다. |
 
-### 3) Interface
+### 3) View Score
 
 | Item | Description |
 | --- | --- |
-| Purpose | 화면을 제공한다 |
-| Approach | 화면을 제공한다. 해당 시스템 가동을 가볍게 하기 위해 기능을 상시 제공이 아니라 on/off형식으로 제공한다. |
+| Purpose | 점수를 제공한다 |
+| Approach | 점수를 제공한다. 해당 시스템 가동을 가볍게 하기 위해 기능을 상시 제공이 아니라 on/off형식으로 제공한다. |
 | Dynamics | 시스템을 이용하려는 경우 |
-| Goals | 화면 출력 기능을 구현한다. |
+| Goals | 점수 출력 기능을 구현한다. |
 
-### 4) Data Crawling
+### 4) Collect Data
 
 | Item | Description |
 | --- | --- |
-| Purpose | 데이터를 갖고온다 |
-| Approach | 데이터를 갖고온다. 자동으로 데이터가 갱신될 때마다 가져올 수 있도록 설계한다. |
+| Purpose | 데이터를 수집한다 |
+| Approach | 데이터를 수집한다. 자동으로 데이터가 갱신될 때마다 가져올 수 있도록 설계한다. |
 | Dynamics | 데이터를 갖고 오는 경우 |
-| Goals | 데이터 크롤링 기능을 구현한다. |
+| Goals | 데이터 수집 기능을 구현한다. |
 
-### 5) Data Save
+### 5) Send Message
 
 | Item | Description |
 | --- | --- |
-| Purpose | 데이터를 저장한다 |
-| Approach | 데이터를 저장한다. 크롤링한 정보를 저장하고 데이터를 가공한 정보를 저장한다. |
-| Dynamics | 데이터를 저장하는 경우 |
-| Goals | 데이터 저장 기능을 구현한다 |
+| Purpose | 메시지를 보낸다 |
+| Approach | 메시지를 보낸다. 프로그램이 실패하거나 오류가 발생한 경우 메시지를 보낸다 |
+| Dynamics | 메시지를 보내는 경우 |
+| Goals | 메시지 전송 기능을 구현한다 |
 
 ### 6) Data Update
 
@@ -192,7 +188,7 @@
 | Dynamics | 데이터를 갱신하는 경우 |
 | Goals | 데이터 갱신 기능을 구현한다. |
 
-### 7) Calculation
+### 7) Calculate Score
 
 | Item | Description |
 | --- | --- |
@@ -200,16 +196,6 @@
 | Approach | 데이터를 기반으로 계산한다. 우선순위에 기반하여 계산을 미리 해둔값을 저장한다. |
 | Dynamics | 데이터를 계산하는 경우 |
 | Goals | 데이터 계산 기능을 구현한다. |
-
-### 8) Data Processing
-
-| Item | Description |
-| --- | --- |
-| Purpose | 데이터를 가공한다 |
-| Approach | 데이터를 가공한다. 각 데이터마다 저장된 형식이 다르기에 전처리를 하고 일관된 형식으로 저장한다. |
-| Dynamics | 데이터를 가공하는 경우 |
-| Goals | 데이터 가공 기능을 구현한다. |
-
 
 
 ## <a id="problem-statement"></a>5. Problem Statement
@@ -255,15 +241,13 @@ DB를 자동으로 업데이트하고 데이터를 갱신하는 방법을 공부
 
 | Term | Description |
 | --- | --- |
-| 데이터 | 사용자가 예약/구매를 원하는 플랫폼 |
-| 크롤링 | 기차표나 영화표 같은 사용자가 원하는 목표 |
-| 가공 | 사용자의 목표를 위해 수행하는 작업, 최종적으로 예약 혹은 확인을 뜻함 |
-| 인터페이스 | 사용자의 작업을 대신하기 위함 |
+| 데이터 | 사용자가 필요한 자료들 |
+| 점수 | 사용자가 필요한 자료를 통합한 지표 |
+| 수집 | 사용자의 목표를 위해 수행하는 작업 |
 
 ---
 
 ## <a id="references"></a>7. References
 
-- [Selenium](https://www.selenium.dev/)
 - [Spring Boot](https://spring.io/projects/spring-boot)
 - [Kakao map](https://apis.map.kakao.com/)
