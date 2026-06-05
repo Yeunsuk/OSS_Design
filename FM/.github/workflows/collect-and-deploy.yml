@@ -1,0 +1,100 @@
+name: 데이터 수집 & GitHub Pages 배포
+
+on:
+  # ── 스케줄: 매주 월요일 오전 3시 (KST = UTC+9, 즉 UTC 18:00 일요일)
+  schedule:
+    - cron: '0 18 * * 0'
+
+  # ── 수동 실행 (Actions 탭 → "Run workflow" 버튼)
+  workflow_dispatch:
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+
+    # ── 저장소에 push할 권한 부여
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      # 1. 코드 체크아웃
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      # 2. JDK 설정
+      - name: JDK 17 설정
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # 3. Gradle 캐시 (빌드 속도 향상)
+      - name: Gradle 캐시
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: ${{ runner.os }}-gradle-
+
+      # 4. 빌드 (shadowJar → crawler.jar 생성)
+      - name: 카카오맵 키 주입
+        run: |
+          sed -i "s/KAKAO_APP_KEY_PLACEHOLDER/${{ secrets.KAKAO_APP_KEY }}/g" docs/index.html
+
+      - name: Gradle 빌드
+        run: ./gradlew shadowJar --no-daemon
+
+      # 5. 데이터 수집 실행
+      - name: 데이터 수집 (CollectorMain)
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+          NEIS_KEY: ${{ secrets.NEIS_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL_ERR: ${{ secrets.DISCORD_WEBHOOK_URL_ERR }}
+        run: java -jar build/libs/crawler.jar
+
+      # 6. regions.json 변경 여부 확인
+      - name: 변경사항 확인
+        id: diff
+        run: |
+          git diff --quiet docs/data/regions.json \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true"  >> $GITHUB_OUTPUT
+
+      # 7. 변경된 경우에만 커밋 & 푸시
+      - name: regions.json 커밋 & 푸시
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/regions.json
+          git commit -m "chore: 데이터 자동 업데이트 $(date +'%Y-%m-%d')"
+          git push
+
+      # 8. Discord 알림 - 업데이트됨
+      - name: Discord 알림 - 업데이트됨
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"✅ regions.json 업데이트 완료 ($(date +'%Y-%m-%d'))\"}"
+
+      # 9. Discord 알림 - 변경 없음
+      - name: Discord 알림 - 변경 없음
+        if: steps.diff.outputs.changed == 'false'
+        run: |
+          curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"ℹ️ regions.json 변경 없음 ($(date +'%Y-%m-%d'))\"}"
+
+      # 10. GitHub Pages 배포 (docs/ 폴더 기준)
+      - name: GitHub Pages 배포
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages

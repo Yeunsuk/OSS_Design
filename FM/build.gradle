@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '8.1.1'
+    id "com.github.jk1.dependency-license-report" version "2.0"// 사용된 라이브러리들의 라이선스 리포트 생성
+}
+
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    // 수집한 데이터를 JSON으로 변환하기 위한 라이브러리 (Jackson)
+    implementation 'org.json:json:20240303'
+}
+
+application {
+    mainClass = 'CollectorMain' // 실제 당신의 메인 클래스 경로
+}
+
+shadowJar {
+    archiveFileName = 'crawler.jar'
+}
+
+//gradle build
+//gradle generateLicenseReport

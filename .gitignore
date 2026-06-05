@@ -1,0 +1,23 @@
+# IDE
+.vscode/
+.idea/
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# Build outputs
+build/
+bin/
+out/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 환경변수
+.env
+*.env
