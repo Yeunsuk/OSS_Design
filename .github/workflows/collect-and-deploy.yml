@@ -39,7 +39,9 @@ jobs:
 
       - name: Gradle 빌드
         working-directory: FM
-        run: ./gradlew shadowJar --no-daemon
+        run: |
+          chmod +x gradlew
+          ./gradlew shadowJar --no-daemon
 
       - name: 데이터 수집 (CollectorMain)
         working-directory: FM
