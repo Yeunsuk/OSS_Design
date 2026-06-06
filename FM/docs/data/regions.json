@@ -45,7 +45,7 @@
             }},
             "북성로1가": {"indicators": {
               "crime_count": {
-                "score": 4545.1,
+                "score": 60.1,
                 "value": 6358
               },
               "convenience_count": {
@@ -22895,11 +22895,11 @@
                 "value": 45
               },
               "medical_count": {
-                "score": 545,
-                "value": 1
+                "score": 0,
+                "value": -1
               },
               "school_count": {
-                "score": 46456,
+                "score": 0,
                 "value": -1
               }
             }},
