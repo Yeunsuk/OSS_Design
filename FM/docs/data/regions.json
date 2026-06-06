@@ -35,7 +35,7 @@
                 "value": 34
               },
               "medical_count": {
-                "score": 46,
+                "score": 46.1,
                 "value": 29
               },
               "school_count": {
@@ -53,7 +53,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -107,7 +107,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41.2,
+                "score": 41.3,
                 "value": 6
               },
               "school_count": {
@@ -161,8 +161,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.5,
-                "value": 31
+                "score": 46.7,
+                "value": 32
               },
               "school_count": {
                 "score": 0,
@@ -197,7 +197,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 51.9,
+                "score": 51.8,
                 "value": 57
               },
               "school_count": {
@@ -233,7 +233,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -269,7 +269,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -287,7 +287,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -305,7 +305,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -377,7 +377,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -395,7 +395,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -413,7 +413,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -431,7 +431,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.6,
+                "score": 40.7,
                 "value": 3
               },
               "school_count": {
@@ -449,7 +449,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41.2,
+                "score": 41.3,
                 "value": 6
               },
               "school_count": {
@@ -467,7 +467,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -503,7 +503,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -521,7 +521,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.8,
+                "score": 40.9,
                 "value": 4
               },
               "school_count": {
@@ -539,7 +539,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41,
+                "score": 41.1,
                 "value": 5
               },
               "school_count": {
@@ -557,7 +557,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -575,7 +575,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -629,7 +629,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.4,
+                "score": 40.5,
                 "value": 2
               },
               "school_count": {
@@ -683,7 +683,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41.2,
+                "score": 41.3,
                 "value": 6
               },
               "school_count": {
@@ -701,7 +701,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 42.1,
+                "score": 42.2,
                 "value": 10
               },
               "school_count": {
@@ -737,7 +737,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 42.1,
+                "score": 42.2,
                 "value": 10
               },
               "school_count": {
@@ -755,7 +755,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.6,
+                "score": 40.7,
                 "value": 3
               },
               "school_count": {
@@ -791,7 +791,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 43.5,
+                "score": 43.6,
                 "value": 17
               },
               "school_count": {
@@ -809,7 +809,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41,
+                "score": 41.1,
                 "value": 5
               },
               "school_count": {
@@ -827,7 +827,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 41.2,
+                "score": 41.3,
                 "value": 6
               },
               "school_count": {
@@ -845,7 +845,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.3,
                 "value": 1
               },
               "school_count": {
@@ -863,8 +863,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 60.2,
-                "value": 97
+                "score": 60.3,
+                "value": 98
               },
               "school_count": {
                 "score": 0,
@@ -882,8 +882,8 @@
               "value": 333
             },
             "medical_count": {
-              "score": 50.2,
-              "value": 478
+              "score": 50.3,
+              "value": 480
             },
             "school_count": {
               "score": 5.3,
@@ -923,8 +923,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 35.4,
-                "value": 190
+                "score": 35.1,
+                "value": 189
               },
               "school_count": {
                 "score": 0,
@@ -1031,8 +1031,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 19.9,
-                "value": 54
+                "score": 19.5,
+                "value": 53
               },
               "school_count": {
                 "score": 0,
@@ -1121,7 +1121,7 @@
                 "value": 17
               },
               "medical_count": {
-                "score": 15.4,
+                "score": 15.1,
                 "value": 15
               },
               "school_count": {
@@ -1176,8 +1176,8 @@
               "value": 311
             },
             "medical_count": {
-              "score": 25.4,
-              "value": 259
+              "score": 25.1,
+              "value": 257
             },
             "school_count": {
               "score": 18.1,
@@ -1200,7 +1200,7 @@
               },
               "medical_count": {
                 "score": 94.2,
-                "value": 46
+                "value": 47
               },
               "school_count": {
                 "score": 0,
@@ -1632,7 +1632,7 @@
               },
               "medical_count": {
                 "score": 100,
-                "value": 217
+                "value": 218
               },
               "school_count": {
                 "score": 0,
@@ -1649,8 +1649,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 98.7,
-                "value": 95
+                "score": 98.8,
+                "value": 96
               },
               "school_count": {
                 "score": 0,
@@ -1721,8 +1721,8 @@
                 "value": 24
               },
               "medical_count": {
-                "score": 93.7,
-                "value": 41
+                "score": 93.6,
+                "value": 40
               },
               "school_count": {
                 "score": 0,
@@ -1865,7 +1865,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 94.4,
+                "score": 94.3,
                 "value": 48
               },
               "school_count": {
@@ -1921,7 +1921,7 @@
             },
             "medical_count": {
               "score": 100,
-              "value": 918
+              "value": 920
             },
             "school_count": {
               "score": 63.8,
@@ -1943,7 +1943,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 43.5,
+                "score": 43.3,
                 "value": 1
               },
               "school_count": {
@@ -2051,7 +2051,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 52,
+                "score": 51.9,
                 "value": 47
               },
               "school_count": {
@@ -2069,7 +2069,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.3,
+                "score": 46.1,
                 "value": 16
               },
               "school_count": {
@@ -2123,7 +2123,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 45.5,
+                "score": 45.4,
                 "value": 12
               },
               "school_count": {
@@ -2159,8 +2159,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 63.5,
-                "value": 109
+                "score": 63.3,
+                "value": 108
               },
               "school_count": {
                 "score": 0,
@@ -2177,7 +2177,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 44.1,
+                "score": 43.9,
                 "value": 4
               },
               "school_count": {
@@ -2213,7 +2213,7 @@
                 "value": 16
               },
               "medical_count": {
-                "score": 45.4,
+                "score": 45.2,
                 "value": 11
               },
               "school_count": {
@@ -2267,7 +2267,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.1,
+                "score": 45.9,
                 "value": 15
               },
               "school_count": {
@@ -2339,7 +2339,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 44.2,
+                "score": 44,
                 "value": 5
               },
               "school_count": {
@@ -2375,8 +2375,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 57.6,
-                "value": 77
+                "score": 57.7,
+                "value": 78
               },
               "school_count": {
                 "score": 0,
@@ -2393,7 +2393,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 44.2,
+                "score": 44,
                 "value": 5
               },
               "school_count": {
@@ -2411,7 +2411,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 44.4,
+                "score": 44.2,
                 "value": 6
               },
               "school_count": {
@@ -2429,7 +2429,7 @@
                 "value": 22
               },
               "medical_count": {
-                "score": 53.7,
+                "score": 53.6,
                 "value": 56
               },
               "school_count": {
@@ -2447,7 +2447,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 50.4,
+                "score": 50.2,
                 "value": 38
               },
               "school_count": {
@@ -2465,7 +2465,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 53.3,
+                "score": 53.2,
                 "value": 54
               },
               "school_count": {
@@ -2483,7 +2483,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.1,
+                "score": 45.9,
                 "value": 15
               },
               "school_count": {
@@ -2501,7 +2501,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 43.9,
+                "score": 43.7,
                 "value": 3
               },
               "school_count": {
@@ -2537,7 +2537,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.1,
+                "score": 45.9,
                 "value": 15
               },
               "school_count": {
@@ -2573,7 +2573,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.6,
+                "score": 46.5,
                 "value": 18
               },
               "school_count": {
@@ -2646,7 +2646,7 @@
               "value": 547
             },
             "medical_count": {
-              "score": 53.5,
+              "score": 53.3,
               "value": 507
             },
             "school_count": {
@@ -2705,8 +2705,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 36.6,
-                "value": 91
+                "score": 36.7,
+                "value": 90
               },
               "school_count": {
                 "score": 0,
@@ -2759,8 +2759,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 34.6,
-                "value": 82
+                "score": 35.1,
+                "value": 83
               },
               "school_count": {
                 "score": 0,
@@ -2777,7 +2777,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 16.6,
+                "score": 16.7,
                 "value": 1
               },
               "school_count": {
@@ -2813,7 +2813,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.2,
+                "score": 18.3,
                 "value": 8
               },
               "school_count": {
@@ -2885,7 +2885,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.6,
+                "score": 18.7,
                 "value": 10
               },
               "school_count": {
@@ -2939,8 +2939,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 33,
-                "value": 75
+                "score": 33.6,
+                "value": 76
               },
               "school_count": {
                 "score": 0,
@@ -2993,7 +2993,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 16.8,
+                "score": 16.9,
                 "value": 2
               },
               "school_count": {
@@ -3102,8 +3102,8 @@
               "value": 392
             },
             "medical_count": {
-              "score": 26.6,
-              "value": 270
+              "score": 26.7,
+              "value": 271
             },
             "school_count": {
               "score": 17,
@@ -3161,7 +3161,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 88,
+                "score": 87.7,
                 "value": 21
               },
               "school_count": {
@@ -3179,7 +3179,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 96.4,
+                "score": 96.1,
                 "value": 74
               },
               "school_count": {
@@ -3197,7 +3197,7 @@
                 "value": 25
               },
               "medical_count": {
-                "score": 87.9,
+                "score": 87.6,
                 "value": 20
               },
               "school_count": {
@@ -3251,7 +3251,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 97.2,
+                "score": 96.9,
                 "value": 79
               },
               "school_count": {
@@ -3269,8 +3269,8 @@
                 "value": 81
               },
               "medical_count": {
-                "score": 96.1,
-                "value": 72
+                "score": 95.6,
+                "value": 71
               },
               "school_count": {
                 "score": 0,
@@ -3287,7 +3287,7 @@
                 "value": 132
               },
               "medical_count": {
-                "score": 86.9,
+                "score": 86.6,
                 "value": 14
               },
               "school_count": {
@@ -3341,7 +3341,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 92.5,
+                "score": 92.2,
                 "value": 49
               },
               "school_count": {
@@ -3377,7 +3377,7 @@
                 "value": 36
               },
               "medical_count": {
-                "score": 90.9,
+                "score": 90.6,
                 "value": 39
               },
               "school_count": {
@@ -3395,7 +3395,7 @@
                 "value": 27
               },
               "medical_count": {
-                "score": 85.7,
+                "score": 85.4,
                 "value": 6
               },
               "school_count": {
@@ -3413,7 +3413,7 @@
                 "value": 44
               },
               "medical_count": {
-                "score": 90.7,
+                "score": 90.4,
                 "value": 38
               },
               "school_count": {
@@ -3431,7 +3431,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 84.9,
+                "score": 84.6,
                 "value": 1
               },
               "school_count": {
@@ -3449,7 +3449,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 97.5,
+                "score": 97.2,
                 "value": 81
               },
               "school_count": {
@@ -3467,7 +3467,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 86,
+                "score": 85.7,
                 "value": 8
               },
               "school_count": {
@@ -3539,7 +3539,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 84.9,
+                "score": 84.6,
                 "value": 1
               },
               "school_count": {
@@ -3575,7 +3575,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 96.1,
+                "score": 95.8,
                 "value": 72
               },
               "school_count": {
@@ -3593,7 +3593,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 86.6,
+                "score": 86.3,
                 "value": 12
               },
               "school_count": {
@@ -3611,7 +3611,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 84.9,
+                "score": 84.6,
                 "value": 1
               },
               "school_count": {
@@ -3629,7 +3629,7 @@
                 "value": 42
               },
               "medical_count": {
-                "score": 97.8,
+                "score": 97.5,
                 "value": 83
               },
               "school_count": {
@@ -3701,7 +3701,7 @@
                 "value": 33
               },
               "medical_count": {
-                "score": 91.4,
+                "score": 91.1,
                 "value": 42
               },
               "school_count": {
@@ -3719,7 +3719,7 @@
                 "value": 26
               },
               "medical_count": {
-                "score": 86.5,
+                "score": 86.2,
                 "value": 11
               },
               "school_count": {
@@ -3737,7 +3737,7 @@
                 "value": 28
               },
               "medical_count": {
-                "score": 88,
+                "score": 87.7,
                 "value": 21
               },
               "school_count": {
@@ -3756,8 +3756,8 @@
               "value": 884
             },
             "medical_count": {
-              "score": 94.9,
-              "value": 873
+              "score": 94.6,
+              "value": 872
             },
             "school_count": {
               "score": 100,
@@ -3797,7 +3797,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.8,
+                "score": 54.6,
                 "value": 3
               },
               "school_count": {
@@ -3833,7 +3833,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 56.6,
+                "score": 56.4,
                 "value": 10
               },
               "school_count": {
@@ -3851,7 +3851,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 56.8,
+                "score": 56.6,
                 "value": 11
               },
               "school_count": {
@@ -3869,7 +3869,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.3,
+                "score": 54.1,
                 "value": 1
               },
               "school_count": {
@@ -3887,7 +3887,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 55.6,
+                "score": 55.4,
                 "value": 6
               },
               "school_count": {
@@ -3941,7 +3941,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 71.8,
+                "score": 71.6,
                 "value": 70
               },
               "school_count": {
@@ -3959,7 +3959,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 56.8,
+                "score": 56.6,
                 "value": 11
               },
               "school_count": {
@@ -3977,7 +3977,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 56.6,
+                "score": 56.4,
                 "value": 10
               },
               "school_count": {
@@ -4013,7 +4013,7 @@
                 "value": 40
               },
               "medical_count": {
-                "score": 61.9,
+                "score": 61.7,
                 "value": 31
               },
               "school_count": {
@@ -4031,7 +4031,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 65.9,
+                "score": 65.7,
                 "value": 47
               },
               "school_count": {
@@ -4049,7 +4049,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 70.8,
+                "score": 70.6,
                 "value": 66
               },
               "school_count": {
@@ -4067,7 +4067,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 57.6,
+                "score": 57.4,
                 "value": 14
               },
               "school_count": {
@@ -4085,7 +4085,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 59.4,
+                "score": 59.2,
                 "value": 21
               },
               "school_count": {
@@ -4157,7 +4157,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.8,
+                "score": 54.6,
                 "value": 3
               },
               "school_count": {
@@ -4193,8 +4193,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 72.5,
-                "value": 73
+                "score": 72.1,
+                "value": 72
               },
               "school_count": {
                 "score": 0,
@@ -4229,7 +4229,7 @@
                 "value": 34
               },
               "medical_count": {
-                "score": 74.3,
+                "score": 74.1,
                 "value": 80
               },
               "school_count": {
@@ -4247,7 +4247,7 @@
                 "value": 17
               },
               "medical_count": {
-                "score": 55.6,
+                "score": 55.4,
                 "value": 6
               },
               "school_count": {
@@ -4265,7 +4265,7 @@
                 "value": 39
               },
               "medical_count": {
-                "score": 61.4,
+                "score": 61.2,
                 "value": 29
               },
               "school_count": {
@@ -4283,7 +4283,7 @@
                 "value": 25
               },
               "medical_count": {
-                "score": 60.1,
+                "score": 59.9,
                 "value": 24
               },
               "school_count": {
@@ -4301,7 +4301,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.8,
+                "score": 54.6,
                 "value": 3
               },
               "school_count": {
@@ -4337,7 +4337,7 @@
                 "value": 37
               },
               "medical_count": {
-                "score": 62.1,
+                "score": 61.9,
                 "value": 32
               },
               "school_count": {
@@ -4355,7 +4355,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 60.4,
+                "score": 60.2,
                 "value": 25
               },
               "school_count": {
@@ -4373,7 +4373,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.8,
+                "score": 54.6,
                 "value": 3
               },
               "school_count": {
@@ -4409,7 +4409,7 @@
                 "value": 49
               },
               "medical_count": {
-                "score": 56.3,
+                "score": 56.1,
                 "value": 9
               },
               "school_count": {
@@ -4499,7 +4499,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 57.8,
+                "score": 57.6,
                 "value": 15
               },
               "school_count": {
@@ -4518,8 +4518,8 @@
               "value": 734
             },
             "medical_count": {
-              "score": 64.3,
-              "value": 603
+              "score": 64.1,
+              "value": 602
             },
             "school_count": {
               "score": 69.1,
@@ -4541,7 +4541,7 @@
                 "value": 109
               },
               "medical_count": {
-                "score": 38.3,
+                "score": 38.2,
                 "value": 95
               },
               "school_count": {
@@ -4559,7 +4559,7 @@
                 "value": 41
               },
               "medical_count": {
-                "score": 21.5,
+                "score": 21.4,
                 "value": 16
               },
               "school_count": {
@@ -4577,7 +4577,7 @@
                 "value": 37
               },
               "medical_count": {
-                "score": 21.1,
+                "score": 21,
                 "value": 14
               },
               "school_count": {
@@ -4595,7 +4595,7 @@
                 "value": 20
               },
               "medical_count": {
-                "score": 19.6,
+                "score": 19.5,
                 "value": 7
               },
               "school_count": {
@@ -4613,7 +4613,7 @@
                 "value": 67
               },
               "medical_count": {
-                "score": 24.5,
+                "score": 24.4,
                 "value": 30
               },
               "school_count": {
@@ -4631,7 +4631,7 @@
                 "value": 80
               },
               "medical_count": {
-                "score": 21.3,
+                "score": 21.2,
                 "value": 15
               },
               "school_count": {
@@ -4649,7 +4649,7 @@
                 "value": 73
               },
               "medical_count": {
-                "score": 32.3,
+                "score": 32.2,
                 "value": 67
               },
               "school_count": {
@@ -4667,7 +4667,7 @@
                 "value": 47
               },
               "medical_count": {
-                "score": 25.5,
+                "score": 25.4,
                 "value": 35
               },
               "school_count": {
@@ -4685,7 +4685,7 @@
                 "value": 11
               },
               "medical_count": {
-                "score": 19.2,
+                "score": 19.1,
                 "value": 5
               },
               "school_count": {
@@ -4703,7 +4703,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.3,
+                "score": 18.2,
                 "value": 1
               },
               "school_count": {
@@ -4722,7 +4722,7 @@
               "value": 485
             },
             "medical_count": {
-              "score": 28.3,
+              "score": 28.2,
               "value": 285
             },
             "school_count": {
@@ -4912,14 +4912,13 @@
         },
         "medical_count": {
           "score": 0,
-          "value": 4228
+          "value": 4229
         },
         "school_count": {
           "score": 0,
           "value": 484
         }
-      },
-      "region_code": "27"
+      }
     },
     "서울특별시": {
       "level": "sido",
@@ -4938,7 +4937,7 @@
                 "value": 88
               },
               "medical_count": {
-                "score": 10.4,
+                "score": 10.5,
                 "value": 75
               },
               "school_count": {
@@ -5010,7 +5009,7 @@
                 "value": 99
               },
               "medical_count": {
-                "score": 2,
+                "score": 2.1,
                 "value": 19
               },
               "school_count": {
@@ -5046,7 +5045,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 4.4,
+                "score": 4.5,
                 "value": 35
               },
               "school_count": {
@@ -5064,7 +5063,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 13.7,
+                "score": 13.8,
                 "value": 97
               },
               "school_count": {
@@ -5137,7 +5136,7 @@
               },
               "medical_count": {
                 "score": 21.3,
-                "value": 148
+                "value": 147
               },
               "school_count": {
                 "score": 0,
@@ -5154,8 +5153,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.7,
-                "value": 77
+                "score": 10.9,
+                "value": 78
               },
               "school_count": {
                 "score": 0,
@@ -5208,7 +5207,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 11,
+                "score": 11.1,
                 "value": 79
               },
               "school_count": {
@@ -5574,7 +5573,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 4.3,
+                "score": 4.2,
                 "value": 100
               },
               "school_count": {
@@ -5646,8 +5645,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 2.4,
-                "value": 87
+                "score": 2.5,
+                "value": 88
               },
               "school_count": {
                 "score": 0,
@@ -5665,7 +5664,7 @@
               },
               "medical_count": {
                 "score": 0,
-                "value": 63
+                "value": 64
               },
               "school_count": {
                 "score": 0,
@@ -5720,7 +5719,7 @@
             },
             "medical_count": {
               "score": 9,
-              "value": 581
+              "value": 583
             },
             "school_count": {
               "score": 21.2,
@@ -5940,8 +5939,8 @@
                 "value": 45
               },
               "medical_count": {
-                "score": 11.7,
-                "value": 67
+                "score": 11.9,
+                "value": 68
               },
               "school_count": {
                 "score": 0,
@@ -6104,7 +6103,7 @@
             },
             "medical_count": {
               "score": 14,
-              "value": 721
+              "value": 722
             },
             "school_count": {
               "score": 51.5,
@@ -6180,8 +6179,8 @@
                 "value": 80
               },
               "medical_count": {
-                "score": 98.1,
-                "value": 307
+                "score": 98.2,
+                "value": 308
               },
               "school_count": {
                 "score": 0,
@@ -6379,7 +6378,7 @@
               },
               "medical_count": {
                 "score": 93.9,
-                "value": 149
+                "value": 150
               },
               "school_count": {
                 "score": 0,
@@ -6415,7 +6414,7 @@
               },
               "medical_count": {
                 "score": 100,
-                "value": 524
+                "value": 525
               },
               "school_count": {
                 "score": 0,
@@ -6451,7 +6450,7 @@
               },
               "medical_count": {
                 "score": 93.1,
-                "value": 121
+                "value": 122
               },
               "school_count": {
                 "score": 0,
@@ -6559,7 +6558,7 @@
               },
               "medical_count": {
                 "score": 100,
-                "value": 633
+                "value": 636
               },
               "school_count": {
                 "score": 0,
@@ -6577,7 +6576,7 @@
               },
               "medical_count": {
                 "score": 97.8,
-                "value": 294
+                "value": 293
               },
               "school_count": {
                 "score": 0,
@@ -6667,7 +6666,7 @@
               },
               "medical_count": {
                 "score": 100,
-                "value": 750
+                "value": 748
               },
               "school_count": {
                 "score": 0,
@@ -6686,7 +6685,7 @@
             },
             "medical_count": {
               "score": 100,
-              "value": 3123
+              "value": 3127
             },
             "school_count": {
               "score": 75.8,
@@ -6744,8 +6743,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 3.5,
-                "value": 33
+                "score": 3.8,
+                "value": 34
               },
               "school_count": {
                 "score": 0,
@@ -6762,8 +6761,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 13.4,
-                "value": 74
+                "score": 13.6,
+                "value": 75
               },
               "school_count": {
                 "score": 0,
@@ -6780,8 +6779,8 @@
                 "value": 44
               },
               "medical_count": {
-                "score": 0.1,
-                "value": 19
+                "score": 0,
+                "value": 18
               },
               "school_count": {
                 "score": 0,
@@ -7214,7 +7213,7 @@
             },
             "medical_count": {
               "score": 5.8,
-              "value": 492
+              "value": 493
             },
             "school_count": {
               "score": 9.1,
@@ -7650,8 +7649,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 17.5,
-                "value": 72
+                "score": 17.2,
+                "value": 71
               },
               "school_count": {
                 "score": 0,
@@ -8120,7 +8119,7 @@
             },
             "medical_count": {
               "score": 8.3,
-              "value": 564
+              "value": 563
             },
             "school_count": {
               "score": 42.4,
@@ -8431,7 +8430,7 @@
               },
               "medical_count": {
                 "score": 0,
-                "value": 2
+                "value": 1
               },
               "school_count": {
                 "score": 0,
@@ -8557,7 +8556,7 @@
               },
               "medical_count": {
                 "score": 0,
-                "value": 7
+                "value": 8
               },
               "school_count": {
                 "score": 0,
@@ -8701,7 +8700,7 @@
               },
               "medical_count": {
                 "score": 0,
-                "value": 1
+                "value": 2
               },
               "school_count": {
                 "score": 0,
@@ -8808,8 +8807,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 3.1,
-                "value": 18
+                "score": 3.6,
+                "value": 19
               },
               "school_count": {
                 "score": 0,
@@ -9458,7 +9457,7 @@
             },
             "medical_count": {
               "score": 5,
-              "value": 470
+              "value": 472
             },
             "school_count": {
               "score": 19.7,
@@ -9480,7 +9479,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.1,
+                "score": 10,
                 "value": 13
               },
               "school_count": {
@@ -9498,8 +9497,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.7,
-                "value": 19
+                "score": 10.5,
+                "value": 18
               },
               "school_count": {
                 "score": 0,
@@ -9534,7 +9533,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 11.2,
+                "score": 11.1,
                 "value": 24
               },
               "school_count": {
@@ -9552,7 +9551,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 12.6,
+                "score": 12.5,
                 "value": 38
               },
               "school_count": {
@@ -9588,7 +9587,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.2,
+                "score": 9.1,
                 "value": 4
               },
               "school_count": {
@@ -9606,7 +9605,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 11.5,
+                "score": 11.4,
                 "value": 27
               },
               "school_count": {
@@ -9624,7 +9623,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9,
+                "score": 8.9,
                 "value": 2
               },
               "school_count": {
@@ -9696,7 +9695,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.3,
+                "score": 9.2,
                 "value": 5
               },
               "school_count": {
@@ -9732,8 +9731,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.6,
-                "value": 8
+                "score": 9.4,
+                "value": 7
               },
               "school_count": {
                 "score": 0,
@@ -9750,7 +9749,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.7,
+                "score": 9.6,
                 "value": 9
               },
               "school_count": {
@@ -9786,7 +9785,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.5,
+                "score": 10.4,
                 "value": 17
               },
               "school_count": {
@@ -9822,7 +9821,7 @@
                 "value": 39
               },
               "medical_count": {
-                "score": 10.4,
+                "score": 10.3,
                 "value": 16
               },
               "school_count": {
@@ -9840,7 +9839,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 8.9,
+                "score": 8.8,
                 "value": 1
               },
               "school_count": {
@@ -9876,7 +9875,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.1,
+                "score": 9,
                 "value": 3
               },
               "school_count": {
@@ -9912,7 +9911,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.7,
+                "score": 9.6,
                 "value": 9
               },
               "school_count": {
@@ -9930,7 +9929,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 8.9,
+                "score": 8.8,
                 "value": 1
               },
               "school_count": {
@@ -9948,7 +9947,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.6,
+                "score": 10.5,
                 "value": 18
               },
               "school_count": {
@@ -9966,7 +9965,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.4,
+                "score": 18.3,
                 "value": 95
               },
               "school_count": {
@@ -9985,7 +9984,7 @@
               },
               "medical_count": {
                 "score": 12.8,
-                "value": 40
+                "value": 41
               },
               "school_count": {
                 "score": 0,
@@ -10002,7 +10001,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.2,
+                "score": 10.1,
                 "value": 14
               },
               "school_count": {
@@ -10038,7 +10037,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 12.7,
+                "score": 12.6,
                 "value": 39
               },
               "school_count": {
@@ -10056,7 +10055,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 25.2,
+                "score": 25.1,
                 "value": 162
               },
               "school_count": {
@@ -10092,7 +10091,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 8.9,
+                "score": 8.8,
                 "value": 1
               },
               "school_count": {
@@ -10110,7 +10109,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.8,
+                "score": 9.7,
                 "value": 10
               },
               "school_count": {
@@ -10128,7 +10127,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.4,
+                "score": 10.3,
                 "value": 16
               },
               "school_count": {
@@ -10146,7 +10145,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 9.8,
+                "score": 9.7,
                 "value": 10
               },
               "school_count": {
@@ -10182,7 +10181,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 28.9,
+                "score": 28.8,
                 "value": 199
               },
               "school_count": {
@@ -10236,7 +10235,7 @@
                 "value": 133
               },
               "medical_count": {
-                "score": 10.5,
+                "score": 10.4,
                 "value": 17
               },
               "school_count": {
@@ -10272,7 +10271,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 13,
+                "score": 12.9,
                 "value": 42
               },
               "school_count": {
@@ -10291,8 +10290,8 @@
               "value": 952
             },
             "medical_count": {
-              "score": 18.9,
-              "value": 859
+              "score": 18.8,
+              "value": 858
             },
             "school_count": {
               "score": 19.7,
@@ -10476,7 +10475,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 16.8,
+                "score": 16.7,
                 "value": 65
               },
               "school_count": {
@@ -10548,7 +10547,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 32.6,
+                "score": 32.5,
                 "value": 209
               },
               "school_count": {
@@ -10692,7 +10691,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 25,
+                "score": 24.9,
                 "value": 140
               },
               "school_count": {
@@ -10747,7 +10746,7 @@
               },
               "medical_count": {
                 "score": 32.8,
-                "value": 211
+                "value": 212
               },
               "school_count": {
                 "score": 0,
@@ -10784,7 +10783,7 @@
             },
             "medical_count": {
               "score": 22.8,
-              "value": 968
+              "value": 969
             },
             "school_count": {
               "score": 45.5,
@@ -10806,8 +10805,8 @@
                 "value": 85
               },
               "medical_count": {
-                "score": 4.8,
-                "value": 61
+                "score": 4.7,
+                "value": 60
               },
               "school_count": {
                 "score": 0,
@@ -10824,8 +10823,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 14,
-                "value": 136
+                "score": 14.2,
+                "value": 137
               },
               "school_count": {
                 "score": 0,
@@ -11190,8 +11189,8 @@
                 "value": 52
               },
               "medical_count": {
-                "score": 18,
-                "value": 56
+                "score": 18.2,
+                "value": 57
               },
               "school_count": {
                 "score": 0,
@@ -11244,8 +11243,8 @@
                 "value": 169
               },
               "medical_count": {
-                "score": 22.8,
-                "value": 79
+                "score": 23.2,
+                "value": 81
               },
               "school_count": {
                 "score": 0,
@@ -11334,8 +11333,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 17,
-                "value": 51
+                "score": 16.8,
+                "value": 50
               },
               "school_count": {
                 "score": 0,
@@ -11642,7 +11641,7 @@
             },
             "medical_count": {
               "score": 16.7,
-              "value": 796
+              "value": 798
             },
             "school_count": {
               "score": 27.3,
@@ -11718,8 +11717,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 19.7,
-                "value": 273
+                "score": 19.6,
+                "value": 272
               },
               "school_count": {
                 "score": 0,
@@ -12044,7 +12043,7 @@
             },
             "medical_count": {
               "score": 13.3,
-              "value": 703
+              "value": 702
             },
             "school_count": {
               "score": 45.5,
@@ -12067,7 +12066,7 @@
               },
               "medical_count": {
                 "score": 6.3,
-                "value": 79
+                "value": 80
               },
               "school_count": {
                 "score": 0,
@@ -12372,8 +12371,8 @@
                 "value": 46
               },
               "medical_count": {
-                "score": 0.9,
-                "value": 11
+                "score": 0.8,
+                "value": 10
               },
               "school_count": {
                 "score": 0,
@@ -13566,8 +13565,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 3.7,
-                "value": 24
+                "score": 3.5,
+                "value": 23
               },
               "school_count": {
                 "score": 0,
@@ -13784,7 +13783,7 @@
             },
             "medical_count": {
               "score": 10.2,
-              "value": 617
+              "value": 616
             },
             "school_count": {
               "score": 0,
@@ -14911,7 +14910,7 @@
               },
               "medical_count": {
                 "score": 25.7,
-                "value": 414
+                "value": 415
               },
               "school_count": {
                 "score": 0,
@@ -14930,7 +14929,7 @@
             },
             "medical_count": {
               "score": 15.7,
-              "value": 769
+              "value": 770
             },
             "school_count": {
               "score": 100,
@@ -15042,7 +15041,7 @@
                 "value": 30
               },
               "medical_count": {
-                "score": 4,
+                "score": 3.9,
                 "value": 39
               },
               "school_count": {
@@ -15060,8 +15059,8 @@
                 "value": 50
               },
               "medical_count": {
-                "score": 20.6,
-                "value": 314
+                "score": 20.5,
+                "value": 313
               },
               "school_count": {
                 "score": 0,
@@ -15222,8 +15221,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 24,
-                "value": 370
+                "score": 23.9,
+                "value": 369
               },
               "school_count": {
                 "score": 0,
@@ -15349,8 +15348,8 @@
               "value": 750
             },
             "medical_count": {
-              "score": 14,
-              "value": 723
+              "score": 13.9,
+              "value": 721
             },
             "school_count": {
               "score": 37.9,
@@ -15374,24 +15373,6 @@
               "medical_count": {
                 "score": 0,
                 "value": -1
-              },
-              "school_count": {
-                "score": 0,
-                "value": -1
-              }
-            }},
-            "대신동": {"indicators": {
-              "crime_count": {
-                "score": 95.7,
-                "value": 7453
-              },
-              "convenience_count": {
-                "score": 0,
-                "value": -1
-              },
-              "medical_count": {
-                "score": 0,
-                "value": 1
               },
               "school_count": {
                 "score": 0,
@@ -15426,7 +15407,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 7.8,
+                "score": 8,
                 "value": 72
               },
               "school_count": {
@@ -15570,7 +15551,7 @@
                 "value": 58
               },
               "medical_count": {
-                "score": 1.9,
+                "score": 2,
                 "value": 41
               },
               "school_count": {
@@ -15660,8 +15641,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 1.9,
-                "value": 41
+                "score": 2.4,
+                "value": 43
               },
               "school_count": {
                 "score": 0,
@@ -15732,7 +15713,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 5.5,
+                "score": 5.7,
                 "value": 60
               },
               "school_count": {
@@ -15823,7 +15804,7 @@
               },
               "medical_count": {
                 "score": 14.4,
-                "value": 107
+                "value": 105
               },
               "school_count": {
                 "score": 0,
@@ -15878,7 +15859,7 @@
             },
             "medical_count": {
               "score": 4.4,
-              "value": 455
+              "value": 454
             },
             "school_count": {
               "score": 13.6,
@@ -15900,8 +15881,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 37.9,
-                "value": 94
+                "score": 38,
+                "value": 93
               },
               "school_count": {
                 "score": 0,
@@ -15936,8 +15917,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 55.3,
-                "value": 709
+                "score": 55.4,
+                "value": 710
               },
               "school_count": {
                 "score": 0,
@@ -16026,8 +16007,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 43.1,
-                "value": 276
+                "score": 43.2,
+                "value": 277
               },
               "school_count": {
                 "score": 0,
@@ -16044,7 +16025,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 36.2,
+                "score": 36.3,
                 "value": 32
               },
               "school_count": {
@@ -16062,7 +16043,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 42.1,
+                "score": 42.2,
                 "value": 243
               },
               "school_count": {
@@ -16116,7 +16097,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 35.6,
+                "score": 35.7,
                 "value": 10
               },
               "school_count": {
@@ -16152,7 +16133,7 @@
                 "value": 22
               },
               "medical_count": {
-                "score": 35.6,
+                "score": 35.7,
                 "value": 13
               },
               "school_count": {
@@ -16242,7 +16223,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 35.3,
+                "score": 35.4,
                 "value": 1
               },
               "school_count": {
@@ -16278,8 +16259,8 @@
                 "value": 41
               },
               "medical_count": {
-                "score": 41.5,
-                "value": 219
+                "score": 41.6,
+                "value": 220
               },
               "school_count": {
                 "score": 0,
@@ -16351,8 +16332,8 @@
               "value": 755
             },
             "medical_count": {
-              "score": 45.3,
-              "value": 1597
+              "score": 45.4,
+              "value": 1599
             },
             "school_count": {
               "score": 36.4,
@@ -16428,8 +16409,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 20.3,
-                "value": 200
+                "score": 20.1,
+                "value": 199
               },
               "school_count": {
                 "score": 0,
@@ -16482,8 +16463,8 @@
                 "value": 48
               },
               "medical_count": {
-                "score": 6.6,
-                "value": 66
+                "score": 6.4,
+                "value": 65
               },
               "school_count": {
                 "score": 0,
@@ -16554,7 +16535,7 @@
                 "value": 64
               },
               "medical_count": {
-                "score": 2.5,
+                "score": 2.4,
                 "value": 26
               },
               "school_count": {
@@ -16608,7 +16589,7 @@
                 "value": 38
               },
               "medical_count": {
-                "score": 4.7,
+                "score": 4.5,
                 "value": 47
               },
               "school_count": {
@@ -16626,7 +16607,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 4.6,
+                "score": 4.4,
                 "value": 46
               },
               "school_count": {
@@ -16680,7 +16661,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 0.3,
+                "score": 0.1,
                 "value": 4
               },
               "school_count": {
@@ -16698,8 +16679,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 16.6,
-                "value": 164
+                "score": 16.3,
+                "value": 162
               },
               "school_count": {
                 "score": 0,
@@ -16716,7 +16697,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 6.5,
+                "score": 6.4,
                 "value": 65
               },
               "school_count": {
@@ -16735,8 +16716,8 @@
               "value": 544
             },
             "medical_count": {
-              "score": 10.3,
-              "value": 618
+              "score": 10.1,
+              "value": 614
             },
             "school_count": {
               "score": 27.3,
@@ -16758,7 +16739,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 30.6,
+                "score": 30.5,
                 "value": 82
               },
               "school_count": {
@@ -16776,8 +16757,8 @@
                 "value": 69
               },
               "medical_count": {
-                "score": 31.6,
-                "value": 93
+                "score": 31.5,
+                "value": 92
               },
               "school_count": {
                 "score": 0,
@@ -16849,7 +16830,7 @@
               },
               "medical_count": {
                 "score": 37.2,
-                "value": 154
+                "value": 155
               },
               "school_count": {
                 "score": 0,
@@ -16939,7 +16920,7 @@
               },
               "medical_count": {
                 "score": 45.8,
-                "value": 248
+                "value": 249
               },
               "school_count": {
                 "score": 0,
@@ -17064,8 +17045,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 30.8,
-                "value": 85
+                "score": 30.7,
+                "value": 84
               },
               "school_count": {
                 "score": 0,
@@ -17119,7 +17100,7 @@
               },
               "medical_count": {
                 "score": 39.4,
-                "value": 178
+                "value": 179
               },
               "school_count": {
                 "score": 0,
@@ -17408,7 +17389,7 @@
             },
             "medical_count": {
               "score": 35.8,
-              "value": 1330
+              "value": 1331
             },
             "school_count": {
               "score": 93.9,
@@ -17790,8 +17771,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 25.9,
-                "value": 206
+                "score": 26,
+                "value": 208
               },
               "school_count": {
                 "score": 0,
@@ -17808,8 +17789,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.5,
-                "value": 85
+                "score": 18.4,
+                "value": 84
               },
               "school_count": {
                 "score": 0,
@@ -17936,7 +17917,7 @@
             },
             "medical_count": {
               "score": 23.4,
-              "value": 984
+              "value": 985
             },
             "school_count": {
               "score": 75.8,
@@ -18839,14 +18820,13 @@
         },
         "medical_count": {
           "score": 0,
-          "value": 19810
+          "value": 19817
         },
         "school_count": {
           "score": 0,
           "value": 1415
         }
-      },
-      "region_code": "27"
+      }
     },
     "부산광역시": {
       "level": "sido",
@@ -18955,7 +18935,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 0.3,
+                "score": 0.5,
                 "value": 9
               },
               "school_count": {
@@ -19009,7 +18989,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 0.3,
+                "score": 0.5,
                 "value": 9
               },
               "school_count": {
@@ -19171,7 +19151,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 2.4,
+                "score": 2.6,
                 "value": 11
               },
               "school_count": {
@@ -19261,8 +19241,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 4.5,
-                "value": 13
+                "score": 5.8,
+                "value": 14
               },
               "school_count": {
                 "score": 0,
@@ -19351,7 +19331,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 0.3,
+                "score": 0.5,
                 "value": 9
               },
               "school_count": {
@@ -19369,7 +19349,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 3.5,
+                "score": 3.7,
                 "value": 12
               },
               "school_count": {
@@ -19531,7 +19511,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 11.9,
+                "score": 12.1,
                 "value": 20
               },
               "school_count": {
@@ -19568,8 +19548,8 @@
               "value": 254
             },
             "medical_count": {
-              "score": 1.9,
-              "value": 139
+              "score": 2.1,
+              "value": 140
             },
             "school_count": {
               "score": 0,
@@ -19753,7 +19733,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 93.6,
+                "score": 93.7,
                 "value": 48
               },
               "school_count": {
@@ -19826,7 +19806,7 @@
               },
               "medical_count": {
                 "score": 100,
-                "value": 238
+                "value": 236
               },
               "school_count": {
                 "score": 0,
@@ -19843,8 +19823,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 97.4,
-                "value": 92
+                "score": 97.6,
+                "value": 93
               },
               "school_count": {
                 "score": 0,
@@ -20006,7 +19986,7 @@
               },
               "medical_count": {
                 "score": 97.4,
-                "value": 92
+                "value": 91
               },
               "school_count": {
                 "score": 0,
@@ -20025,7 +20005,7 @@
             },
             "medical_count": {
               "score": 100,
-              "value": 713
+              "value": 711
             },
             "school_count": {
               "score": 91.8,
@@ -20047,8 +20027,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 8.9,
-                "value": 44
+                "score": 8.4,
+                "value": 43
               },
               "school_count": {
                 "score": 0,
@@ -20191,8 +20171,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 15.5,
-                "value": 63
+                "score": 15.1,
+                "value": 62
               },
               "school_count": {
                 "score": 0,
@@ -20209,7 +20189,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 10.3,
+                "score": 10.2,
                 "value": 48
               },
               "school_count": {
@@ -20318,8 +20298,8 @@
               "value": 250
             },
             "medical_count": {
-              "score": 5.5,
-              "value": 160
+              "score": 5.1,
+              "value": 158
             },
             "school_count": {
               "score": 18,
@@ -21433,7 +21413,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 48.7,
+                "score": 48.9,
                 "value": 31
               },
               "school_count": {
@@ -21469,7 +21449,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 53.7,
+                "score": 53.9,
                 "value": 55
               },
               "school_count": {
@@ -21487,7 +21467,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 58.2,
+                "score": 58.4,
                 "value": 76
               },
               "school_count": {
@@ -21559,7 +21539,7 @@
                 "value": 35
               },
               "medical_count": {
-                "score": 54.4,
+                "score": 54.6,
                 "value": 58
               },
               "school_count": {
@@ -21595,7 +21575,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 46.4,
+                "score": 46.6,
                 "value": 20
               },
               "school_count": {
@@ -21631,7 +21611,7 @@
                 "value": 28
               },
               "medical_count": {
-                "score": 43,
+                "score": 43.2,
                 "value": 4
               },
               "school_count": {
@@ -21649,7 +21629,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 63,
+                "score": 63.2,
                 "value": 99
               },
               "school_count": {
@@ -21667,7 +21647,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 62.2,
+                "score": 62.4,
                 "value": 95
               },
               "school_count": {
@@ -21686,7 +21666,7 @@
               "value": 502
             },
             "medical_count": {
-              "score": 53,
+              "score": 53.2,
               "value": 438
             },
             "school_count": {
@@ -21709,7 +21689,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 38.6,
+                "score": 39,
                 "value": 11
               },
               "school_count": {
@@ -21799,7 +21779,7 @@
                 "value": 21
               },
               "medical_count": {
-                "score": 38,
+                "score": 38.4,
                 "value": 5
               },
               "school_count": {
@@ -21871,8 +21851,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 48.4,
-                "value": 115
+                "score": 48.9,
+                "value": 116
               },
               "school_count": {
                 "score": 0,
@@ -21925,7 +21905,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 58,
+                "score": 58.4,
                 "value": 216
               },
               "school_count": {
@@ -21997,7 +21977,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 42.3,
+                "score": 42.7,
                 "value": 50
               },
               "school_count": {
@@ -22051,7 +22031,7 @@
                 "value": 19
               },
               "medical_count": {
-                "score": 38.7,
+                "score": 39.1,
                 "value": 12
               },
               "school_count": {
@@ -22088,8 +22068,8 @@
               "value": 381
             },
             "medical_count": {
-              "score": 48,
-              "value": 409
+              "score": 48.4,
+              "value": 410
             },
             "school_count": {
               "score": 72.1,
@@ -22111,7 +22091,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 45.7,
+                "score": 46,
                 "value": 149
               },
               "school_count": {
@@ -22129,7 +22109,7 @@
                 "value": 63
               },
               "medical_count": {
-                "score": 25.7,
+                "score": 26,
                 "value": 21
               },
               "school_count": {
@@ -22147,7 +22127,7 @@
                 "value": 28
               },
               "medical_count": {
-                "score": 31,
+                "score": 31.3,
                 "value": 55
               },
               "school_count": {
@@ -22219,7 +22199,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 27.1,
+                "score": 27.4,
                 "value": 30
               },
               "school_count": {
@@ -22273,8 +22253,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 35.2,
-                "value": 82
+                "score": 35.7,
+                "value": 83
               },
               "school_count": {
                 "score": 0,
@@ -22346,8 +22326,8 @@
               "value": 326
             },
             "medical_count": {
-              "score": 35.7,
-              "value": 337
+              "score": 36,
+              "value": 338
             },
             "school_count": {
               "score": 21.3,
@@ -23131,8 +23111,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 65,
-                "value": 61
+                "score": 64.9,
+                "value": 60
               },
               "school_count": {
                 "score": 0,
@@ -23205,7 +23185,7 @@
             },
             "medical_count": {
               "score": 69.6,
-              "value": 535
+              "value": 534
             },
             "school_count": {
               "score": 70.5,
@@ -23227,8 +23207,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 45.5,
-                "value": 81
+                "score": 46.2,
+                "value": 82
               },
               "school_count": {
                 "score": 0,
@@ -23245,8 +23225,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 39.1,
-                "value": 47
+                "score": 39.8,
+                "value": 48
               },
               "school_count": {
                 "score": 0,
@@ -23281,7 +23261,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 30.3,
+                "score": 30.8,
                 "value": 1
               },
               "school_count": {
@@ -23353,7 +23333,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 50.3,
+                "score": 50.8,
                 "value": 106
               },
               "school_count": {
@@ -23389,7 +23369,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 31.8,
+                "score": 32.3,
                 "value": 9
               },
               "school_count": {
@@ -23425,7 +23405,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 30.9,
+                "score": 31.4,
                 "value": 4
               },
               "school_count": {
@@ -23587,7 +23567,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 43.4,
+                "score": 43.9,
                 "value": 70
               },
               "school_count": {
@@ -23623,7 +23603,7 @@
                 "value": 55
               },
               "medical_count": {
-                "score": 38.7,
+                "score": 39.2,
                 "value": 45
               },
               "school_count": {
@@ -23641,7 +23621,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 30.3,
+                "score": 30.8,
                 "value": 1
               },
               "school_count": {
@@ -23660,8 +23640,8 @@
               "value": 417
             },
             "medical_count": {
-              "score": 40.3,
-              "value": 364
+              "score": 40.8,
+              "value": 366
             },
             "school_count": {
               "score": 72.1,
@@ -24013,7 +23993,7 @@
                 "value": 37
               },
               "medical_count": {
-                "score": 34.3,
+                "score": 34.8,
                 "value": 23
               },
               "school_count": {
@@ -24067,8 +24047,8 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 54.3,
-                "value": 134
+                "score": 54.8,
+                "value": 136
               },
               "school_count": {
                 "score": 0,
@@ -24157,7 +24137,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 50.9,
+                "score": 51.1,
                 "value": 115
               },
               "school_count": {
@@ -24265,7 +24245,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.8,
+                "score": 41.2,
                 "value": 59
               },
               "school_count": {
@@ -24301,7 +24281,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 40.2,
+                "score": 40.6,
                 "value": 56
               },
               "school_count": {
@@ -24320,8 +24300,8 @@
               "value": 405
             },
             "medical_count": {
-              "score": 44.3,
-              "value": 387
+              "score": 44.8,
+              "value": 389
             },
             "school_count": {
               "score": 75.4,
@@ -24343,7 +24323,7 @@
                 "value": 30
               },
               "medical_count": {
-                "score": 18.8,
+                "score": 18.9,
                 "value": 26
               },
               "school_count": {
@@ -24379,7 +24359,7 @@
                 "value": 31
               },
               "medical_count": {
-                "score": 10.5,
+                "score": 10.6,
                 "value": 4
               },
               "school_count": {
@@ -24397,7 +24377,7 @@
                 "value": 44
               },
               "medical_count": {
-                "score": 21.4,
+                "score": 21.5,
                 "value": 33
               },
               "school_count": {
@@ -24415,7 +24395,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 21.8,
+                "score": 21.9,
                 "value": 34
               },
               "school_count": {
@@ -24451,7 +24431,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 18.4,
+                "score": 18.5,
                 "value": 25
               },
               "school_count": {
@@ -24487,7 +24467,7 @@
                 "value": 62
               },
               "medical_count": {
-                "score": 15,
+                "score": 15.1,
                 "value": 16
               },
               "school_count": {
@@ -24523,7 +24503,7 @@
                 "value": -1
               },
               "medical_count": {
-                "score": 29,
+                "score": 29.1,
                 "value": 53
               },
               "school_count": {
@@ -24541,7 +24521,7 @@
                 "value": 86
               },
               "medical_count": {
-                "score": 30.5,
+                "score": 30.6,
                 "value": 57
               },
               "school_count": {
@@ -24614,7 +24594,7 @@
               "value": 467
             },
             "medical_count": {
-              "score": 20.5,
+              "score": 20.6,
               "value": 248
             },
             "school_count": {
@@ -24637,8 +24617,8 @@
                 "value": 105
               },
               "medical_count": {
-                "score": 22,
-                "value": 77
+                "score": 22.9,
+                "value": 79
               },
               "school_count": {
                 "score": 60.8,
@@ -24655,7 +24635,7 @@
                 "value": 58
               },
               "medical_count": {
-                "score": 10.5,
+                "score": 10.9,
                 "value": 31
               },
               "school_count": {
@@ -24673,7 +24653,7 @@
                 "value": 20
               },
               "medical_count": {
-                "score": 3.7,
+                "score": 4.1,
                 "value": 4
               },
               "school_count": {
@@ -24691,7 +24671,7 @@
                 "value": 58
               },
               "medical_count": {
-                "score": 4.9,
+                "score": 5.4,
                 "value": 9
               },
               "school_count": {
@@ -24727,7 +24707,7 @@
                 "value": 146
               },
               "medical_count": {
-                "score": 23.7,
+                "score": 24.1,
                 "value": 84
               },
               "school_count": {
@@ -24746,8 +24726,8 @@
               "value": 387
             },
             "medical_count": {
-              "score": 13.7,
-              "value": 208
+              "score": 14.1,
+              "value": 210
             },
             "school_count": {
               "score": 50.8,
@@ -24824,7 +24804,7 @@
               },
               "medical_count": {
                 "score": 56.8,
-                "value": 332
+                "value": 331
               },
               "school_count": {
                 "score": 0,
@@ -24910,7 +24890,7 @@
               },
               "convenience_count": {
                 "score": 31,
-                "value": 234234
+                "value": 53
               },
               "medical_count": {
                 "score": 0,
@@ -24927,7 +24907,7 @@
                 "value": 7585
               },
               "convenience_count": {
-                "score": 2343243243,
+                "score": 22.5,
                 "value": 36
               },
               "medical_count": {
@@ -24959,7 +24939,7 @@
             }},
             "연산6동": {"indicators": {
               "crime_count": {
-                "score": 32432432,
+                "score": 67.8,
                 "value": 7585
               },
               "convenience_count": {
@@ -25003,12 +24983,12 @@
                 "value": 21
               },
               "medical_count": {
-                "score": 324,
+                "score": 0,
                 "value": -1
               },
               "school_count": {
-                "score": 3434,
-                "value": 3424234
+                "score": 0,
+                "value": -1
               }
             }}
           },
@@ -25023,7 +25003,7 @@
             },
             "medical_count": {
               "score": 46.8,
-              "value": 402
+              "value": 401
             },
             "school_count": {
               "score": 34.4,
@@ -25044,18 +25024,17 @@
         },
         "medical_count": {
           "score": 0,
-          "value": 4743
+          "value": 4746
         },
         "school_count": {
           "score": 0,
           "value": 661
         }
-      },
-      "region_code": "27"
+      }
     }
   },
   "meta": {
-    "last_updated": "2026-05",
+    "last_updated": "2026-06",
     "score_version": "1.0"
   }
 }
