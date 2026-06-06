@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>살기좋은 주거지 지도</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- 우측 하단 버튼 모음 -->
+    <div class="button-container">
+        <button class="map-btn" onclick="openModal('sidoModal')">🗺️ 지역 선택</button>
+        <button id="toggleBtn" class="map-btn" onclick="toggleDisplay()">🔔 표시 ON</button>
+        <button class="map-btn" onclick="openModal('weightModal')">⚖️ 가중치</button>
+    </div>
+
+    <!-- 가중치 설정 모달 -->
+    <div id="weightModal" class="modal">
+        <div class="modal-header">가중치 설정 (1~5)</div>
+        <div class="modal-body">
+            <div class="input-group">
+                <span>👮 범죄 발생</span>
+                <input type="number" id="w_crime" value="3" min="1" max="5">
+            </div>
+            <div class="input-group">
+                <span>🏥 의료시설</span>
+                <input type="number" id="w_medical" value="3" min="1" max="5">
+            </div>
+            <div class="input-group">
+                <span>🏫 학교</span>
+                <input type="number" id="w_school" value="3" min="1" max="5">
+            </div>
+            <div class="input-group">
+                <span>🏪 편의시설</span>
+                <input type="number" id="w_convenience" value="3" min="1" max="5">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="close-btn" onclick="closeModal('weightModal')">취소</button>
+            <button class="confirm-btn" onclick="applyWeights()">적용</button>
+        </div>
+    </div>
+
+    <!-- 지역 선택 모달 -->
+    <div id="sidoModal" class="modal">
+        <div class="modal-header">🗺️ 지역 선택</div>
+        <div class="modal-body">
+            <div class="sido-btn-group">
+                <button class="sido-select-btn" onclick="selectSido('대구광역시')">🏙️ 대구광역시</button>
+                <button class="sido-select-btn" onclick="selectSido('부산광역시')">🏙️ 부산광역시</button>
+                <button class="sido-select-btn" onclick="selectSido('서울특별시')">🏙️ 서울특별시</button>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button class="close-btn" onclick="closeModal('sidoModal')">닫기</button>
+        </div>
+    </div>
+
+    <!-- 구/동 상세 정보 모달 -->
+    <div id="detailModal" class="modal">
+        <div class="modal-header" id="detailTitle"></div>
+        <div class="modal-body" id="detailBody"></div>
+        <div class="modal-footer">
+            <button class="close-btn" onclick="closeModal('detailModal')">닫기</button>
+        </div>
+    </div>
+
+    <!-- 카카오맵 SDK → config.js → map.js -->
+    <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=e649a3c2a537067ced1357bb6737de11&libraries=services"></script>
+    <script src="config.js"></script>
+    <script src="map.js"></script>
+</body>
+</html>

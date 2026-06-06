@@ -1,0 +1,167 @@
+/* 기본 레이아웃: 지도가 전체 화면을 채우도록 여백 제거 */
+body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+#map { width: 100%; height: 100vh; position: relative; }
+
+/* 우측 하단 버튼 컨테이너: 지도 위에 절대 위치로 고정 */
+.button-container {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* 지도 위 플로팅 버튼 공통 스타일 */
+.map-btn {
+    padding: 12px 20px;
+    background-color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.map-btn:hover { background-color: #f0f0f0; }
+
+/* 팝업(모달): 화면 정중앙에 고정 표시 */
+.modal {
+    display: none; /* 기본적으로 숨김 */
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    width: 300px;
+}
+
+/* 모달 헤더·바디·푸터 레이아웃 */
+.modal-header { font-size: 18px; font-weight: bold; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+.modal-body { margin-bottom: 20px; }
+.modal-footer { text-align: right; }
+
+/* 가중치 입력 폼: 라벨과 숫자 입력이 한 줄에 나란히 */
+.input-group { margin-bottom: 15px; display: flex; align-items: center; justify-content: space-between; }
+input[type="text"] { width: 100%; padding: 8px; box-sizing: border-box; }
+input[type="number"] { width: 60px; padding: 5px; text-align: center; }
+
+/* 모달 내 확인·닫기 버튼 */
+.confirm-btn { padding: 8px 16px; background-color: #333; color: white; border: none; border-radius: 4px; cursor: pointer; }
+.close-btn { margin-right: 10px; background: none; border: none; cursor: pointer; color: #888; }
+
+/* 표시 OFF 상태일 때 버튼을 반전 색상으로 강조 */
+.map-btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+/* 지도 위 커스텀 오버레이 카드 */
+.overlay-wrap {
+    background: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px 14px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    cursor: pointer;
+    min-width: 90px;
+}
+/* 오버레이 지역명 */
+.overlay-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+/* 오버레이 종합 점수 숫자 */
+.overlay-score {
+    font-size: 22px;
+    font-weight: bold;
+}
+/* 오버레이 하단 지표별 점수 요약 */
+.overlay-detail {
+    font-size: 10px;
+    color: #666;
+    margin-top: 3px;
+    line-height: 1.6;
+}
+
+/* 점수 구간별 색상: 80↑ 초록 / 50~79 주황 / 50↓ 빨강 */
+.score-high   { color: #2ecc71; }
+.score-mid    { color: #f39c12; }
+.score-low    { color: #e74c3c; }
+
+/* 시/도 선택 서브메뉴: open 클래스 추가 시 표시 */
+.sido-submenu.open { display: block; }
+.sido-submenu button {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+}
+.sido-submenu button:last-child { border-bottom: none; }
+.sido-submenu button:hover { background: #f0f0f0; }
+
+/* 시/도 선택 버튼 목록: 세로 배치 */
+.sido-btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* 시/도 선택 개별 버튼: 호버 시 반전 */
+.sido-select-btn {
+    padding: 12px;
+    background: #f8f8f8;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    transition: background 0.15s;
+}
+.sido-select-btn:hover {
+    background: #333;
+    color: white;
+    border-color: #333;
+}
+
+/* 상세 모달 지표 행: 라벨과 값을 양 끝에 배치 */
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+.detail-row:last-child { border-bottom: none; }
+.detail-label { color: #555; }
+.detail-value { font-weight: bold; }
+
+/* 상세 모달 종합 점수 숫자 */
+.detail-score {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0 5px;
+}
+
+/* 종합 점수 아래 부연 설명 텍스트 */
+.detail-total {
+    text-align: center;
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 12px;
+}
