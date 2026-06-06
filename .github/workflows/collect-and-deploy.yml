@@ -40,7 +40,7 @@ jobs:
       - name: Gradle 빌드
         working-directory: FM
         run: |
-          chmod +x gradlew
+          chmod +x ./gradlew
           ./gradlew shadowJar --no-daemon
 
       - name: 데이터 수집 (CollectorMain)
