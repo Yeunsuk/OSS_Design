@@ -1,5 +1,6 @@
 import java.io.*;
 import java.net.*;
+import org.json.*;
 
 public abstract class Collector {
     public abstract void collect(RegionStore ds) throws Exception;
@@ -41,8 +42,33 @@ public abstract class Collector {
         }
     }
     
-    //API 연속 호출 시 서버 부하 방지용 딜레이 
+    //API 연속 호출 시 서버 부하 방지용 딜레이
     protected void delay() throws InterruptedException {
         Thread.sleep(AppConfig.API_DELAY_MS);
+    }
+
+    //root에 key(JSONObject)가 없으면 API 에러 응답 내용을 담아 예외를 던집니다.
+    protected JSONObject requireObject(JSONObject root, String key) {
+        if (!root.has(key)) throw new RuntimeException(describeApiError(root, key));
+        return root.getJSONObject(key);
+    }
+
+    //root에 key(JSONArray)가 없으면 API 에러 응답 내용을 담아 예외를 던집니다.
+    protected JSONArray requireArray(JSONObject root, String key) {
+        if (!root.has(key)) throw new RuntimeException(describeApiError(root, key));
+        return root.getJSONArray(key);
+    }
+
+    //공공데이터포털 공통 에러 포맷(cmmMsgHeader)을 우선 인식하고, 아니면 원본 응답 일부를 담아 반환합니다.
+    private String describeApiError(JSONObject root, String expectedKey) {
+        if (root.has("cmmMsgHeader")) {
+            JSONObject hdr = root.getJSONObject("cmmMsgHeader");
+            String reason = hdr.optString("returnAuthMsg", hdr.optString("errMsg", "알 수 없음"));
+            String code   = hdr.optString("returnReasonCode", "?");
+            return "공공데이터포털 API 오류: " + reason + " (code=" + code + ")";
+        }
+        String raw = root.toString();
+        if (raw.length() > 300) raw = raw.substring(0, 300) + "...";
+        return "API 응답에 '" + expectedKey + "' 필드가 없습니다. 원본 응답: " + raw;
     }
 }

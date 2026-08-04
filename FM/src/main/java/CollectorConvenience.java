@@ -63,8 +63,8 @@ public class CollectorConvenience extends Collector {
             + "&divId=signguCd&key=" + signguCd
             + "&indsSclsCd=" + upjongCd;
 
-        int total = new JSONObject(httpGet(countUrl))
-            .getJSONObject("body").optInt("totalCount", 0);
+        JSONObject countRoot = new JSONObject(httpGet(countUrl));
+        int total = requireObject(countRoot, "body").optInt("totalCount", 0);
 
         if (total == 0) return 0;
 
@@ -75,8 +75,8 @@ public class CollectorConvenience extends Collector {
             + "&divId=signguCd&key=" + signguCd
             + "&indsSclsCd=" + upjongCd;
 
-        JSONArray items = new JSONObject(httpGet(fullUrl))
-            .getJSONObject("body").getJSONArray("items");
+        JSONObject fullRoot = new JSONObject(httpGet(fullUrl));
+        JSONArray items = requireObject(fullRoot, "body").getJSONArray("items");
 
         for (int i = 0; i < items.length(); i++) {
             String dongNm = items.getJSONObject(i).optString("adongNm", "");

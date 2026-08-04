@@ -29,6 +29,8 @@ public class CollectorInfra extends Collector {
         int totalCount = fetchTotalCount(sidoCd);
         System.out.println("  전체 의료기관 수: " + totalCount + "개");
 
+        delay();
+
         // 2단계: 전체 한 번에 수집
         String fullUrl = AppConfig.HOSPITAL_URL
             + "?serviceKey=" + AppConfig.SERVICE_KEY
@@ -77,18 +79,15 @@ public class CollectorInfra extends Collector {
             + "?serviceKey=" + AppConfig.SERVICE_KEY
             + "&sidoCd=" + sidoCd + "&numOfRows=1&pageNo=1";
 
-        return new JSONObject(httpGet(url))
-            .getJSONObject("response")
-            .getJSONObject("body")
+        JSONObject root = new JSONObject(httpGet(url));
+        return requireObject(requireObject(root, "response"), "body")
             .getInt("totalCount");
     }
 
     /** items 필드가 배열(여러 개)이거나 객체(1개)인 경우를 모두 처리 */
     private JSONArray parseItems(String json) {
         JSONObject root = new JSONObject(json);
-        Object rawItems = root.getJSONObject("response")
-                              .getJSONObject("body")
-                              .getJSONObject("items")
+        Object rawItems = requireObject(requireObject(requireObject(root, "response"), "body"), "items")
                               .get("item");
 
         return (rawItems instanceof JSONArray)

@@ -45,7 +45,7 @@ public class CollectorSafety extends Collector {
 
         String response = httpGet(url);
         JSONObject root = new JSONObject(response);
-        JSONArray  data = root.getJSONArray("data");
+        JSONArray  data = requireArray(root, "data");
 
         System.out.println("  수신 행 수: " + data.length() + "개 (범죄 중분류)");
 
