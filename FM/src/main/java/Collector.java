@@ -15,7 +15,27 @@ public abstract class Collector {
         return request(urlStr, false);
     }
 
+    //서버 점검 등 일시적 네트워크 오류(연결 타임아웃 등) 대비 재시도
     private String request(String urlStr, boolean withAccept) throws Exception {
+        IOException lastError = null;
+
+        for (int attempt = 1; attempt <= AppConfig.HTTP_MAX_ATTEMPTS; attempt++) {
+            try {
+                return doRequest(urlStr, withAccept);
+            } catch (IOException e) {
+                lastError = e;
+                System.err.println("  [HTTP 재시도 " + attempt + "/" + AppConfig.HTTP_MAX_ATTEMPTS
+                    + "] " + e.getMessage());
+                if (attempt < AppConfig.HTTP_MAX_ATTEMPTS) {
+                    Thread.sleep(AppConfig.HTTP_RETRY_DELAY_MS);
+                }
+            }
+        }
+
+        throw lastError;
+    }
+
+    private String doRequest(String urlStr, boolean withAccept) throws IOException {
         //URL url = new URL(urlStr);
         URL url = URI.create(urlStr).toURL();
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();

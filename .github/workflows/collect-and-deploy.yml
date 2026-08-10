@@ -2,7 +2,10 @@ name: 데이터 수집 & GitHub Pages 배포
 
 on:
   schedule:
-    - cron: '0 18 * * 0'
+    # 매주 일요일 06:00 UTC = 한국시간(KST) 15:00
+    # 심평원 등 공공 API 서버의 새벽(00~06시 KST) 점검 시간대를 피하기 위해
+    # 기존 18:00 UTC(=익일 새벽 3시 KST)에서 변경함
+    - cron: '0 6 * * 0'
   workflow_dispatch:
 
 jobs:

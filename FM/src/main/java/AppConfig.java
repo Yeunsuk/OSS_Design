@@ -41,6 +41,10 @@ public class AppConfig {
     public static final int HTTP_READ_TIMEOUT_MS    = 60_000;
     public static final int API_DELAY_MS            = 300;
 
+    // 서버 점검 등 일시적 네트워크 오류 대비 재시도
+    public static final int HTTP_MAX_ATTEMPTS   = 3;
+    public static final int HTTP_RETRY_DELAY_MS = 5_000;
+
 
     // ── 헬퍼 ────────────────────────────────────────────────────────────────
     private static String getEnv(String key, String fallback) {
