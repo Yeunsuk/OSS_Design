@@ -67,14 +67,18 @@ public abstract class Collector {
         Thread.sleep(AppConfig.API_DELAY_MS);
     }
 
-    //raw 응답이 JSON이 아니면(XML 에러 페이지 등) 원본 내용을 담아 예외 발생
+    //Accept:application/json을 무시하고 XML로 응답하는 API가 있어, XML이면 JSONObject로 변환
+    //(둘 다 아니면 원본 내용을 담아 예외 발생)
     protected JSONObject parseJson(String raw) {
+        String trimmed = raw == null ? "" : raw.strip();
         try {
-            return new JSONObject(raw);
+            return trimmed.startsWith("<")
+                ? XML.toJSONObject(trimmed)
+                : new JSONObject(trimmed);
         } catch (JSONException e) {
-            String snippet = raw == null ? "null" : raw.strip();
+            String snippet = trimmed.isEmpty() ? "null" : trimmed;
             if (snippet.length() > 300) snippet = snippet.substring(0, 300) + "...";
-            throw new RuntimeException("API 응답이 JSON이 아닙니다. 원본 응답: " + snippet, e);
+            throw new RuntimeException("API 응답이 JSON/XML로 파싱되지 않습니다. 원본 응답: " + snippet, e);
         }
     }
 
