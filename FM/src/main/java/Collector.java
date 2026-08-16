@@ -67,6 +67,17 @@ public abstract class Collector {
         Thread.sleep(AppConfig.API_DELAY_MS);
     }
 
+    //raw 응답이 JSON이 아니면(XML 에러 페이지 등) 원본 내용을 담아 예외 발생
+    protected JSONObject parseJson(String raw) {
+        try {
+            return new JSONObject(raw);
+        } catch (JSONException e) {
+            String snippet = raw == null ? "null" : raw.strip();
+            if (snippet.length() > 300) snippet = snippet.substring(0, 300) + "...";
+            throw new RuntimeException("API 응답이 JSON이 아닙니다. 원본 응답: " + snippet, e);
+        }
+    }
+
     //root에 key(JSONObject)가 없으면 API 에러 응답 내용을 담아 예외를 던집니다.
     protected JSONObject requireObject(JSONObject root, String key) {
         if (!root.has(key)) throw new RuntimeException(describeApiError(root, key));

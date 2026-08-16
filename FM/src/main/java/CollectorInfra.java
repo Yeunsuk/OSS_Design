@@ -79,14 +79,14 @@ public class CollectorInfra extends Collector {
             + "?serviceKey=" + AppConfig.SERVICE_KEY
             + "&sidoCd=" + sidoCd + "&numOfRows=1&pageNo=1";
 
-        JSONObject root = new JSONObject(httpGet(url));
+        JSONObject root = parseJson(httpGet(url));
         return requireObject(requireObject(root, "response"), "body")
             .getInt("totalCount");
     }
 
     /** items 필드가 배열(여러 개)이거나 객체(1개)인 경우를 모두 처리 */
     private JSONArray parseItems(String json) {
-        JSONObject root = new JSONObject(json);
+        JSONObject root = parseJson(json);
         Object rawItems = requireObject(requireObject(requireObject(root, "response"), "body"), "items")
                               .get("item");
 

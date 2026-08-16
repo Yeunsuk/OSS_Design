@@ -63,7 +63,7 @@ public class CollectorConvenience extends Collector {
             + "&divId=signguCd&key=" + signguCd
             + "&indsSclsCd=" + upjongCd;
 
-        JSONObject countRoot = new JSONObject(httpGet(countUrl));
+        JSONObject countRoot = parseJson(httpGet(countUrl));
         int total = requireObject(countRoot, "body").optInt("totalCount", 0);
 
         if (total == 0) return 0;
@@ -75,7 +75,7 @@ public class CollectorConvenience extends Collector {
             + "&divId=signguCd&key=" + signguCd
             + "&indsSclsCd=" + upjongCd;
 
-        JSONObject fullRoot = new JSONObject(httpGet(fullUrl));
+        JSONObject fullRoot = parseJson(httpGet(fullUrl));
         JSONArray items = requireObject(fullRoot, "body").getJSONArray("items");
 
         for (int i = 0; i < items.length(); i++) {
