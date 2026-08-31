@@ -6,9 +6,12 @@ import org.json.*;
  * 시/도별 의료기관 수 집계 → DS 적재
  *
  * 지표: Indicator.MEDICAL
- * 흐름: totalCount 파악 → 전체 1회 수집 → 구/군+동 동시 집계
+ * 흐름: totalCount 파악 → 페이지 단위 분할 수집 → 구/군+동 동시 집계
+ * (대량 요청 한 방에 안 보내고 나눠 보내 서버 부하/타임아웃 완화)
  */
 public class CollectorInfra extends Collector {
+
+    private static final int PAGE_SIZE = 100;
 
     @Override
     public void collect(RegionStore ds) throws Exception {
@@ -31,14 +34,8 @@ public class CollectorInfra extends Collector {
 
         delay();
 
-        // 2단계: 전체 한 번에 수집
-        String fullUrl = AppConfig.HOSPITAL_URL
-            + "?serviceKey=" + AppConfig.SERVICE_KEY
-            + "&sidoCd=" + sidoCd
-            + "&numOfRows=" + totalCount + "&pageNo=1";
-
-        String fullResp = httpGet(fullUrl);
-        JSONArray items = parseItems(fullResp);
+        // 2단계: 페이지 단위로 나눠서 수집
+        JSONArray items = fetchAllItems(sidoCd, totalCount);
 
         // 3단계: 구/군별 + 동별 동시 집계
         Map<String, Integer>              districtCount = new LinkedHashMap<>();
@@ -82,6 +79,28 @@ public class CollectorInfra extends Collector {
         JSONObject root = parseJson(httpGet(url));
         return requireObject(requireObject(root, "response"), "body")
             .getInt("totalCount");
+    }
+
+    /** PAGE_SIZE 단위로 나눠 전체 페이지를 수집·병합 */
+    private JSONArray fetchAllItems(String sidoCd, int totalCount) throws Exception {
+        JSONArray all = new JSONArray();
+        int totalPages = (int) Math.ceil((double) totalCount / PAGE_SIZE);
+
+        for (int page = 1; page <= totalPages; page++) {
+            String url = AppConfig.HOSPITAL_URL
+                + "?serviceKey=" + AppConfig.SERVICE_KEY
+                + "&sidoCd=" + sidoCd
+                + "&numOfRows=" + PAGE_SIZE + "&pageNo=" + page;
+
+            JSONArray pageItems = parseItems(httpGet(url));
+            for (int i = 0; i < pageItems.length(); i++) {
+                all.put(pageItems.getJSONObject(i));
+            }
+
+            if (page < totalPages) delay();
+        }
+
+        return all;
     }
 
     /** items 필드가 배열(여러 개)이거나 객체(1개)인 경우를 모두 처리 */

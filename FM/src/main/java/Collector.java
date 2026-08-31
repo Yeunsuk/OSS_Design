@@ -15,9 +15,10 @@ public abstract class Collector {
         return request(urlStr, false);
     }
 
-    //서버 점검 등 일시적 네트워크 오류(연결 타임아웃 등) 대비 재시도
+    //서버 점검 등 일시적 네트워크 오류(연결 타임아웃 등) 대비 재시도 (지수 백오프)
     private String request(String urlStr, boolean withAccept) throws Exception {
         IOException lastError = null;
+        long delayMs = AppConfig.HTTP_RETRY_BASE_DELAY_MS;
 
         for (int attempt = 1; attempt <= AppConfig.HTTP_MAX_ATTEMPTS; attempt++) {
             try {
@@ -27,7 +28,8 @@ public abstract class Collector {
                 System.err.println("  [HTTP 재시도 " + attempt + "/" + AppConfig.HTTP_MAX_ATTEMPTS
                     + "] " + e.getMessage());
                 if (attempt < AppConfig.HTTP_MAX_ATTEMPTS) {
-                    Thread.sleep(AppConfig.HTTP_RETRY_DELAY_MS);
+                    Thread.sleep(delayMs);
+                    delayMs *= 2; // 다음 재시도는 더 길게 대기 (지수 백오프)
                 }
             }
         }
@@ -42,6 +44,10 @@ public abstract class Collector {
         conn.setRequestMethod("GET");
         conn.setConnectTimeout(AppConfig.HTTP_CONNECT_TIMEOUT_MS);
         conn.setReadTimeout(AppConfig.HTTP_READ_TIMEOUT_MS);
+        // 일부 공공기관 WAF가 비표준(Java 기본) User-Agent를 차단/차별 처리하는 경우 대비
+        conn.setRequestProperty("User-Agent",
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+            + "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36");
 
         if (withAccept) {
             conn.setRequestProperty("Accept", "application/json");
